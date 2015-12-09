@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>A*</h1>
+
+    <div id="controls" class="center">
+
+      <div id="palette">
+        <svg id="paletteSVG"></svg>
+      </div><br />
+
+
+      <label for="graphSize">
+          Board Size: <span id="graphSize-value"></span>
+      </label>
+      <input type="number" min="10" max="100" width="30" value="10" id="size">
+      <button type="button" id="init">Generate</button>
+      <button type="button" id="graph">Solve</button><br /><br />
+      <button type="button" id="save">Save</button>
+      <button type="button" id="delete">Delete</button>
+
+    </div>
+
+    <div id="stage" class="center">
+      <div id="msg"></div>
+      <svg id="board"></svg>
+    </div>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+<script src="script.js"></script>
+</html>

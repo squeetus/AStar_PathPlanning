@@ -1,0 +1,33 @@
+h1 {
+  text-align: center;
+}
+
+input {
+    text-align:right;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 1px solid black;
+    padding: 10px;
+    vertical-align: top;
+}
+
+#msg {
+    margin: auto;
+    width: 50%;
+    font-size: 100;
+    text-align: center;
+}
+
+#palette {
+  float: right;
+  max-height: 80px;
+}
+
+.brush .extent {
+  stroke: #fff;
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}
